@@ -1,0 +1,14 @@
+.navigationBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px 0px 150px;
+}
+
+.navigationBar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    
+}
+
