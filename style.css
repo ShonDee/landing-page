@@ -1,8 +1,14 @@
+* {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .navigationBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 150px 0px 150px;
+    padding: 20px 300px 20px 300px;
+    background-color: #1F2937;
 }
 
 .navigationBar ul {
@@ -12,12 +18,102 @@
     
 }
 
+.navigationBar h3 {
+    color: #E5E7EB;
+}
+
+.navigationBar ul li {
+    color: #E5E7EB;
+}
+
 .headerIntro {
     display: flex;
     align-items: flex-start;
     justify-content:center;
+    gap: 80px;
+    background-color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.callToAction {
+    max-width: 400px;
+}
+
+.callToAction h1 {
+    color : #F9FAF8;
+    font-size: 48px;
+}
+
+.callToAction p {
+    color : #F9FAF8;
 }
 
 img {
-    max-width: 400px;
+    width: 600px;
+    height: 300px;
+    object-fit: fill;
+}
+
+.informationPanel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.informationPanel h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.informationPanel .imageSlideshow .imageDescription img {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: fill;
+    border-radius: 8px;
+}
+
+.imageSlideshow {
+    display: flex;
+    gap: 80px;
+}
+
+.imageDescription {
+    max-width: 200px;
+    margin-bottom: 100px;
+
+}
+
+.quotePanel {
+    padding: 100px 450px 100px 450px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+}
+
+.quoteAuthor {
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signUpPanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 100px 500px 100px 500px;
+    padding: 50px 0 50px 0;
+    gap: 100px;
+    border-radius: 8px;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 30px 0 30px 0;
+    color: white;
 }
